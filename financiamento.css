@@ -1,0 +1,453 @@
+body {
+  background-color: beige;
+  margin: 0;
+}
+
+hr {
+  background-color: rgb(10, 31, 68);
+  margin-top: 70px;
+}
+
+
+
+.logo {
+  margin-left: 6px;
+  margin-top: 6px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid rgb(10, 31, 68);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.titulo {
+  margin-left: 120px;
+  margin-top: -110px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(10, 31, 68);
+}
+
+p {
+  margin-top: -29px;
+}
+
+#menu {
+  border-radius: 20px;
+  background-color: rgb(10, 31, 68);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+}
+
+#menu ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+#menu li {
+  margin: 2px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#menu a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.botao {
+  background-color: rgb(50, 68, 102);
+  color: white;
+  padding: 4px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.botao:hover {
+  background-color: rgb(69, 100, 131);
+  transform: scale(1.05);
+}
+
+.botao:active {
+  transform: scale(0.95);
+}
+
+.areadireita {
+  position: absolute;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.perfil {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.centro {
+  text-align: center;
+  margin-top: -70px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(10, 31, 68);
+}
+
+.perfil img {
+  cursor: pointer;
+  transition: 0.3s;
+  display: block;
+}
+
+.perfil img:hover {
+  transform: scale(1.35);
+}
+
+.perfil a {
+  display: inline-block;
+}
+
+.hr2 {
+  margin-top: auto;
+  margin-top: 9px;
+}
+
+.cabeçalhofinan {
+  background-color: rgb(43, 102, 77);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 1px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+  ;
+}
+
+.cabeçalhofinan h2 {
+  position: relative;
+  color: white;
+  margin-bottom: 23px;
+  font-size: large;
+}
+
+.cabeçalhofinan p {
+  color: rgb(233, 233, 233);
+}
+
+.financiamento {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.subtexto {
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cards h3 {
+  color: white;
+  position: relative;
+  margin-bottom: 28px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cards p{
+  color:#e7e7e7;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: small;
+}
+
+.card {
+  background-color: rgb(69, 100, 131);
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.card:hover {
+  background-color: rgb(37, 55, 88);
+}
+
+.simulador {
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  width: 400px;
+  margin: 40px auto;
+  height: 550px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.simulador h2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form input,
+.form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form button {
+  margin-top: 10px;
+  padding: 12px;
+  border: none;
+  background-color: rgb(69, 100, 131);
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.form button:hover {
+  background-color: rgb(50, 68, 102);
+}
+
+.resultado {
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: rgb(43, 102, 77);
+  border-radius: 8px;
+}
+
+.resultado h3{
+  position: relative;
+  margin-bottom: 28x;
+}
+
+.resultado p{
+  margin-left: 75px;
+  padding: 4px;
+  text-align: start;
+}
+
+.cabecalho-faq {
+  margin-top: 10px;
+  color: rgb(10, 31, 68);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 20px;
+  margin-left: 679px;
+  width: 400px;
+}
+
+.h2socorro {
+  margin-left: 700px;
+  color: rgb(10, 31, 68);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  align-items: center;
+  width: 400px;
+}
+
+.icone-faq {
+  position: relative;
+  left: -46px;
+  top: 70px;
+  color: rgb(10, 31, 68);
+  width: 35px;
+  height: 35px;
+}
+
+.faq-emprestimos {
+  margin-left: 700px;
+  color: rgb(32, 62, 116);
+  width: 500px;
+
+}
+
+.faq-emprestimos .item {
+  border-bottom: 1px solid #ddd;
+}
+
+.faq-emprestimos input {
+  display: none;
+}
+
+.faq-emprestimos .pergunta {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: small;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.faq-emprestimos .pergunta:hover {
+  background-color: rgb(247, 247, 229);
+}
+
+.faq-emprestimos .resposta {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: small;
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 15px;
+  transition: 0.3s;
+  color: #555;
+}
+
+.faq-emprestimos input:checked~.resposta {
+  max-height: 200px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+}
+
+.faq-emprestimos .seta {
+  transition: 0.3s;
+}
+
+.faq-emprestimos input:checked+.pergunta .seta {
+  transform: rotate(90deg);
+}
+
+.rodape {
+    margin-top: 50px;
+    border-radius: 30px 30px 0 0;
+    background-color: rgb(10, 31, 68);
+    color: #ccc;
+    padding: 40px 20px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.rodape-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.logorodape img {
+    margin-left: -400px;
+    margin-top: -20px;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgb(0, 0, 2);
+}
+
+.logorodape img:hover {
+    transition: 0.3;
+    transform: scale(1.01);
+    transition: 300ms;
+}
+
+.rodape {
+  padding: 70px 20px 20px;
+  position: relative;
+  background-color: #0b0f1a;
+  color: #ccc;
+}
+
+.rodape-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.redes-sociais {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  display: flex;
+  gap: 12px;
+  z-index: 10;
+}
+
+.redes-sociais img {
+  width: 25px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.redes-sociais img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.coluna {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.h2rodape {
+  margin-left: -289px;
+  margin-top: -70px;
+  color: beige;
+}
+
+.coluna1 {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.coluna1 a {
+  display: inline-block;
+  margin-top: -10px;
+  text-decoration: none;
+  color: #ccc;
+  margin-left: -40px;
+
+}
+
+.coluna1 li {
+  list-style: none;
+  margin-bottom: 10px;
+  margin: 5px 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.coluna1 a:hover {
+  color: #fff;
+}
+
+.coluna1 h3 {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.coluna h3 {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.coluna p {
+  margin: 5px 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.coluna p:hover {
+  color: #fff;
+}
+
+.rodape-final {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+  color: #777;
+}

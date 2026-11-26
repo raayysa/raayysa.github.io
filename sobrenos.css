@@ -1,0 +1,291 @@
+body {
+    background-color: beige;
+    margin: 0;
+}
+
+hr {
+    background-color: rgb(10, 31, 68);
+    margin-top: 70px;
+}
+
+.logo {
+    margin-left: 6px;
+    margin-top: 6px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid rgb(10, 31, 68);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.titulo {
+    margin-left: 120px;
+    margin-top: -110px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(10, 31, 68);
+}
+
+p {
+    margin-top: -29px;
+}
+
+#menu {
+    border-radius: 20px;
+    background-color: rgb(10, 31, 68);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+#menu ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+#menu li {
+    margin: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.botao {
+    background-color: rgb(50, 68, 102);
+    color: white;
+    padding: 4px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.botao:hover {
+    background-color: rgb(69, 100, 131);
+    transform: scale(1.05);
+}
+
+.botao:active {
+    transform: scale(0.95);
+}
+
+.areadireita {
+    position: absolute;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.perfil {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.centro {
+    text-align: center;
+    margin-top: -70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(10, 31, 68);
+}
+
+.perfil img {
+    cursor: pointer;
+    transition: 0.3s;
+    display: block;
+}
+
+.perfil img:hover {
+    transform: scale(1.35);
+}
+
+.perfil a {
+    display: inline-block;
+}
+
+.hr2 {
+    margin-top: auto;
+    margin-top: 9px;
+}
+
+.imgempresa img {
+    width: 450px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 200px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.imgempresa img:hover {
+    transition: 0.3;
+    transform: scale(1.01);
+    transition: 300ms;
+}
+
+.imgempresa2 img {
+    width: 450px;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-left: 200px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.imgempresa2 img:hover {
+    transition: 0.3;
+    transform: scale(1.01);
+    transition: 300ms;
+}
+
+.titulosobrenos {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    margin-top: -930px;
+    width: 800px;
+    margin-left: 800px;
+}
+
+.textosobrenos {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 800px;
+    margin-left: 800px;
+    margin-top: 20px;
+}
+
+
+
+.rodape {
+    margin-top: 300px;
+    border-radius: 30px 30px 0 0;
+    background-color: rgb(10, 31, 68);
+    color: #ccc;
+    padding: 40px 20px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.rodape-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.logorodape img {
+    margin-left: -400px;
+    margin-top: -20px;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgb(0, 0, 2);
+}
+
+.logorodape img:hover {
+    transition: 0.3;
+    transform: scale(1.01);
+    transition: 300ms;
+}
+
+.rodape {
+  padding: 70px 20px 20px;
+  position: relative;
+  background-color: #0b0f1a;
+  color: #ccc;
+}
+
+.rodape-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.redes-sociais {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  display: flex;
+  gap: 12px;
+  z-index: 10;
+}
+
+.redes-sociais img {
+  width: 25px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.redes-sociais img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.coluna {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.h2rodape {
+  margin-left: -289px;
+  margin-top: -70px;
+  color: beige;
+}
+
+.coluna1 {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.coluna1 a {
+  display: inline-block;
+  margin-top: -10px;
+  text-decoration: none;
+  color: #ccc;
+  margin-left: -40px;
+
+}
+
+.coluna1 li {
+  list-style: none;
+  margin-bottom: 10px;
+  margin: 5px 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.coluna1 a:hover {
+  color: #fff;
+}
+
+.coluna1 h3 {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.coluna h3 {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.coluna p {
+  margin: 5px 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.coluna p:hover {
+  color: #fff;
+}
+
+.rodape-final {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+  color: #777;
+}
